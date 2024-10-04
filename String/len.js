@@ -14,3 +14,7 @@ let str2="mansi";
 console.log(str[3]);
 
 
+//another way to access a specific character from a string is charAt method
+
+let str3="Mahesh Gavale";
+console.log(str3.charAt(4));
