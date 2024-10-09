@@ -9,7 +9,7 @@ let o2={
     c:4
 }
 console.log(Object.assign(o1,o2));
-console.log(Object.assign(o2,o1));
+//console.log(Object.assign(o2,o1));
 console.log(o1);
 
-console.log(o2);
+//console.log(o2);
