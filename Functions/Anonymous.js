@@ -13,7 +13,7 @@ const demo=function(){
 console.log(demo());
 
 //passing as an argument 
-
+//arrawfuntion
 let numbers=[1,2,3,4,5,6];
 console.log(numbers.map((n)=>{
     return n*2;
@@ -50,8 +50,19 @@ numbers.forEach((n)=>{
 
 
 //normal  anonymous function
-
+//hoisting is not possible in anonymous function 
 console.log(numbers.map(function(n){
     return n*2;
 }));
+
+
+
+//IIFE fnction
+//immediate call function
+
+(function()
+{
+console.log("immediate");
+
+})();
 
