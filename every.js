@@ -16,3 +16,4 @@ console.log(arr.every((n)=>{
 console.log(arr.some((n)=>{
     return n>5;
 }));
+
