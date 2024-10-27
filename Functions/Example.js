@@ -6,3 +6,7 @@ function factor(num1){
 }
 const demo=factor(10);
 demo(2)
+
+
+const tripple_factor=factor(15);
+tripple_factor(3)
